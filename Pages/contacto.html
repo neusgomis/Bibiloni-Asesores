@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,900;1,100&display=swap" rel="stylesheet">
+    <title>Bibiloni Asesores | Contacto</title>
+</head>
+<body>
+    <header>
+        <img src="/Users/usuario/Documents/Codecademy/Projects/Bibiloni Asesores/Images/dark_logo_transparent_background.png" width="50" height="100">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class = "form">
+        <p>Completa el formulario para ponerte en contacto con nosotros, o llámanos</p>
+        <form action="procesar_formulario.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+    
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="subject">Tipo de Asesoria:</label>
+            <select id="subject" name="subject" required>
+                <option value="Asesoria Laboral">Asesoría Laboral</option>
+                <option value="Asesoria Personas Físicas">Asesoría Personas Físicas</option>
+                <option value="Asesoria Fiscal y Contable">Asesoría Fiscal y Contable</option>
+                <option value="Creación Empresas">Creación Empresas</option>
+                <option value="Otro">Otro</option>
+            </select><br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <div class = "contacto">
+        <h2>Contacto</h2>
+        <div class = "numeros">
+            <p>Bibiloni Asesores</p>
+            <p>Calle Cami de la Cabana local 24, es Pont d'Inca, Marratxi 07141</p>
+            <p>971 90 70 58</p>
+            <p>bibiloniasesores@gmail.com</p>
+        </div>
+        <div class = "mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98376.08248455086!2d2.5473475456237864!3d39.5989923692832!2m3!1f0!2f0!3f0!3m2!1i3500!2i3000!4f13.1!3m3!1m2!1s0x1297937e35ccabcd%3A0x9c7124b0c5b58f7b!2sBibiloni%20Asesores!5e0!3m2!1sen!2ses!4v1697705928702!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <footer>
+        <img src="/Users/usuario/Documents/Codecademy/Projects/Bibiloni Asesores/Images/white_logo_transparent_background.png" width="50" height="100">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2023 Bibiloni Asesores</p>
+    </footer>
+    
+</body>
+</html>
